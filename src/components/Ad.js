@@ -18,7 +18,7 @@ function Ad() {
                 </div>
             </div>
             <div className=" flex items-center">
-                <img src="/static/images/stats.png" className="h-[30rem] w-[44rem]"  alt="stats" />
+                {/* <img src="/static/images/stats.png" className="h-[30rem] w-[44rem]"  alt="stats" /> */}
             </div>
         </div>
     )

@@ -18,8 +18,10 @@ const navlinks= [
 function NavBar() {
     return (
         <div className="hidden md:flex text-gray-200 px-10 h-14 items-center justify-between  shadow-gray-700 shadow-lg">
-           <div className="flex space-x-56">
-                <span>LOGO</span>
+           <div className="flex items-center space-x-56 ">
+                <div className="">
+                    <img src="/static/images/logo.png" alt="LOGO" />
+                </div>
                 <div className="flex  space-x-10">
                     { 
                         navlinks.map((link) => (
