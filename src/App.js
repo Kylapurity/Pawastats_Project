@@ -1,8 +1,12 @@
+import Resources from "./components/Resources";
 import Landing from "./pages/Landing";
 
 function App() {
   return (
-    <Landing />
+    <div>
+      <Landing />
+      <Resources />
+    </div>
   );
 }
 
