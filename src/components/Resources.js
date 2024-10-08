@@ -34,10 +34,10 @@ const data = [
 
 const Resources = () => {
   return (
-    <div className="bg-[#03091E] min-h-screen">
+    <div className="min-h-screen h-[92vh]">
       <NavBar /> 
 
-      <div className=" bg-gradient-to-b from-[#053d4e] to-[#0a7293] grid grid-cols-1 md:grid-cols-3 gap-4 px-10 py-5">
+      <div className="pt-16 h-full bg-gradient-to-b from-[#053d4e] to-[#0a7293] grid grid-cols-1 md:grid-cols-3 gap-4 px-10 py-5">
         {data.map((item) => (
           <div
             key={item.id}

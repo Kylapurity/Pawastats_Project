@@ -1,15 +1,15 @@
 
 function Ad() {
     return (
-        <div className="text-white p-4 md:grid grid-cols-2 gap-2 h-[93vh] ">
+        <div className="text-white p-4 md:grid grid-cols-2 gap-2 h-[93.3vh] ">
             <div className="flex flex-col space-y-2 md:space-y-6  md:pl-28  justify-center">
                 <span className="text-3xl md:text-5xl font-bold">Boost Sales With Our</span>
                 <span className="text-2xl md:text-5xl bg-gradient-to-r from-[#64e6de] via-[#398485] to-[#25575c] bg-clip-text text-transparent  font-bold h-14">Cutting-Edge CRM Solution</span>
-                <span className="text-sm md:text-md">
+                <span className="md:text-md font-poppins">
                     PawaStats helps you improve customer relationships 
-                    by conducting sentimental analysis based on<br /> media feedback
+                    by conducting sentimental analysis based on media feedback
                     and consumer reviews. It provides real-time insights into
-                    trends making it easier<br /> to make informed decisions  and refine
+                    trends making it easier to make informed decisions  and refine
                     your marketing strategies.
                 </span>
 
@@ -19,6 +19,9 @@ function Ad() {
             </div>
             <div className=" flex items-center">
                 <img src="/static/images/stats.png" className="h-[30rem] w-[44rem]"  alt="stats" />
+                <div>
+
+                </div>
             </div>
         </div>
     )
