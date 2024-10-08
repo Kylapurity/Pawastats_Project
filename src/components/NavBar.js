@@ -32,8 +32,8 @@ function NavBar() {
                 </div>
            </div>
            <div className="space-x-4">
-                <button className="bg-gradient-to-b from-[#053d4e] to-[#0a7293] rounded-lg px-2 py-1 text-xl font-semibold">Get A Demo</button>
-                <button className="bg-gradient-to-b from-[#2cdbcc] to-[#1C858C]  rounded-lg px-2 py-1 text-xl text-black font-semibold">Try For Free</button>
+                <button className="bg-gradient-to-b from-[#042D3A] to-[#0B7CA0] rounded-full px-2 py-1 text-xl font-semibold">Get A Demo</button>
+                <button className="bg-gradient-to-b from-[#2ED6E1] to-[#19757B]  rounded-full px-2 py-1 text-xl text-black font-semibold">Try For Free</button>
            </div>
         </div>
     )
