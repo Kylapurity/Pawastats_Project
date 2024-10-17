@@ -1,4 +1,4 @@
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+// import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const navlinks= [
@@ -26,7 +26,7 @@ const navlinks= [
 
 function NavBar() {
     return (
-        <div className="hidden md:flex text-gray-200 px-10 h-14 items-center justify-between  shadow-gray-700 shadow-lg fixed top-0 w-full z-20 bg-[#03091E]">
+        <div className="hidden md:flex text-gray-200 px-10 h-14 items-center justify-between max-w-7xl rounded-xl mt-8  shadow-gray-700 shadow-lg fixed top-0 w-full z-20 bg-[#03091E]">
            <div className="flex items-center space-x-56 ">
                 <div className="">
                     <img src="/static/images/logo.png" alt="LOGO" />
