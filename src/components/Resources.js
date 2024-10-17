@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './NavBar'; // Import NavBar component
+import NavBar from './NavBar';
 
 const data = [
   {
@@ -18,7 +18,7 @@ const data = [
     content: [
       { title: '2024 Trend Report', description: 'The hottest trends in social media management.' },
       { title: 'Product updates', description: 'Keep up with new feature releases and platform enhancements.' },
-      { title: 'Usage Analytics and Performance Metrics', description: 'Provides users with insights on how they are using the platform, helping them see the value they\'re getting from the platform.' } // Corrected missing period and closing quote
+      { title: 'Usage Analytics and Performance Metrics', description: 'Provides users with insights on how they are using the platform, helping them see the value they\'re getting from the platform.' }
     ]
   },
   { 
@@ -34,16 +34,15 @@ const data = [
 
 const Resources = () => {
   return (
-    <div className="min-h-screen h-[92vh]">
-      <NavBar /> 
-
-      <div className="pt-16 h-full bg-gradient-to-b from-[#053d4e] to-[#0a7293] grid grid-cols-1 md:grid-cols-3 gap-4 px-10 py-5">
+    <div className="min-h-screen mx-auto flex flex-col items-center bg-gradient-to-b from-sky-900 via-cyan-600 to-cyan-200">
+      <NavBar />
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl flex-grow pb-10 !mt-40">
         {data.map((item) => (
-          <div
+          <div 
             key={item.id}
-            className="hidden md:flex flex-col text-gray-200 h-[400px] shadow-gray-700 shadow-lg bg-[#0041C3A] rounded-lg p-6"
+            className="hidden md:flex flex-col text-gray-200 h-[400px] bg-gradient-to-b from-[#03091E] to-transparent p-6"
           >
-            <h2 className="text-xl font-bold mb-4">{item.header}</h2> {/* Card header */}
+            <h2 className="text-xl font-bold mb-4 text-center text-cyan-600">{item.header}</h2> {/* Card header */}
             <div className="flex-grow">
               {item.content.map((contentItem, index) => (
                 <div key={index} className="mb-4">
